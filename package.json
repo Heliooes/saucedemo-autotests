@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo-autotests",
+  "version": "1.0.0",
+  "description": "Autotests for Saucedemo.com using Playwright and Page Object Pattern",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "test:headless": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
