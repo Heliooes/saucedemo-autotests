@@ -1,13 +1,5 @@
 # 🚀 Saucedemo Autotests
 
-Проект автоматизации тестирования для сайта [Saucedemo.com](https://www.saucedemo.com/).
+[![Playwright Tests](https://github.com/Heliooes/saucedemo-autotests/actions/workflows/playwright.yml/badge.svg)](https://github.com/Heliooes/saucedemo-autotests/actions)
 
-## 🛠 Технологии
-- JavaScript
-- Playwright
-- Page Object Pattern
-
-## 🚀 Запуск тестов
-```bash
-npm install
-npm test
+Проект автоматизации тестирования
