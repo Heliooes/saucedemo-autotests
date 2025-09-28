@@ -17,6 +17,11 @@ class CartPage {
     async proceedToCheckout() {
         await this.checkoutButton.click();
     }
+
+    async expectCartIsEmpty() {
+        await expect(this.page.locator('.cart_item')).toHaveCount(0);
+        await expect(this.page.locator('.shopping_cart_badge')).not.toBeVisible();
+    }
 }
 
 module.exports = { CartPage };
