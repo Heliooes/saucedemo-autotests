@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Autotests for Saucedemo.com using Playwright and Page Object Pattern",
   "scripts": {
-    "test": "npx playwright test --headed",
-    "test:headless": "npx playwright test"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0"
