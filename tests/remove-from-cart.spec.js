@@ -18,7 +18,5 @@ test('пользователь может удалить товар из кор�
 
     await cartPage.expectCartIsEmpty();
 
-    await expect(page.locator('.nonexistent-element-that-will-fail')).toBeVisible();
-
 });
 
