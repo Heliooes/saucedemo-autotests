@@ -16,7 +16,12 @@
 - **Профессиональные практики** написания автотестов
 
 # Команды
-npm test            # Все тесты
-npm run test:headed # С браузером
-npm run test:debug  # Режим отладки
-npm run report      # HTML отчет
+
+npm test            
+Все тесты
+npm run test:headed 
+С браузером
+npm run test:debug  
+Режим отладки
+npm run report      
+# HTML отчет
