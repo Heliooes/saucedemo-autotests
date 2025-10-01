@@ -4,8 +4,6 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript)
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?logo=github-actions)
 
-# Статус тестов
-![Tests Status](https://github.com/твой-username/saucedemo-autotests/actions/workflows/playwright.yml/badge.svg)
 
 Автоматизация тестирования [saucedemo.com](https://www.saucedemo.com/) на Playwright + JavaScript.
 
@@ -18,7 +16,7 @@
 - **Профессиональные практики** написания автотестов
 
 # Команды
-npm test             # Все тесты
-npm run test:headed  # С браузером
-npm run test:debug   # Режим отладки
-npm run report       # HTML отчет
+npm test            # Все тесты
+npm run test:headed # С браузером
+npm run test:debug  # Режим отладки
+npm run report      # HTML отчет
